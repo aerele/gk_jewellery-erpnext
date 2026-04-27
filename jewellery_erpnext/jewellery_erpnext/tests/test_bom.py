@@ -192,7 +192,7 @@ class TestBOMDoctype(FrappeTestCase):
 				)
 
 	def test_bom_creation(self):
-		bom = frappe.get_doc("BOM", self.bom)
+		bom = frappe.get_doc("BOM", "ITEM-001")
 
 		self.assertIsNotNone(bom, "BOM should be created")
 		self.assertEqual(bom.quantity, 1, "Quantity should match the expected value")
