@@ -35,6 +35,8 @@ bench get-app https://github.com/Gurukrupa-Export/gurukrupa_biometric.git --bran
 bench get-app https://github.com/Gurukrupa-Export/gurukrupa_customizations.git --branch main
 
 echo "::endgroup::"
+
+echo "::group::Redis Setup"
 bench set-config -g redis_cache redis://127.0.0.1:6379
 bench set-config -g redis_queue redis://127.0.0.1:6379
 bench set-config -g redis_socketio redis://127.0.0.1:6379
