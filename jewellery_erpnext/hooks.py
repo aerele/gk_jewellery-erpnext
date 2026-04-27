@@ -284,28 +284,7 @@ fixtures = [
 			]
 		],
 	},
-	{
-		"dt": "Custom Field",
-		"filters": [
-			[
-				"module",
-				"in",
-				[
-					"Jewellery ERPNext",
-					"Gurukrupa Exports",
-					"GKE SURVEY",
-					"Sadguru",
-					"GKE HRMS",
-					"Gke Price List",
-					"GKE Order Forms",
-					"GKE Custom Export",
-					"GKE Catalog",
-					"Gke Customization",
-				],
-			],
-			["dt", "in", ["Timesheet"]],
-		],
-	},
+	"Custom Field",
 	"Property Setter",
 	{
 		"doctype": "Attribute Value",
